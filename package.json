@@ -1,0 +1,35 @@
+{
+  "name": "barnowl-libnfc",
+  "homepage": "https://github.com/reelyactive/barnowl-libnfc/",
+  "author": "reelyActive <webdev@reelyactive.com>",
+  "description": "Interface libnfc to barnowl open source software.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "barnowl",
+    "libnfc",
+    "NFC"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "./lib/barnowllibnfc.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/barnowl-libnfc.git"
+  },
+  "dependencies": {
+    "advlib-identifier": ">=0.1.0",
+    "raddec": ">=0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/reelyactive/barnowl-libnfc/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
